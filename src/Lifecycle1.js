@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
-export default class Page1 extends Component {
+export default class Lifecycle1 extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -15,10 +15,10 @@ export default class Page1 extends Component {
         console.log('renderの処理です。');
         return(
             <div>
-                <h1>sample 2</h1>
+                <h1>Lifecycle</h1>
                 <p>デベロッパーツールで、コンソールを確認すると、【renderの処理です。】が２回表示されます。</p>
                 <p>問題を解消し、１度しか表示されないように変更してください。</p>
-                <Link to={{ pathname: '/P3' }} className="mdl-navigation__link">次へ</Link>
+                <Link to={{ pathname: '/P4' }} className="mdl-navigation__link">次へ</Link>
             </div>
         );
     }

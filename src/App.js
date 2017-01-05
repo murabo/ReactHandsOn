@@ -21,13 +21,16 @@ class App extends Component {
                 <li>
                   <Link to={{ pathname: '/P1' }} className="mdl-navigation__link">stateの表示</Link>
                 </li>
+                  <li>
+                    <Link to={{ pathname: '/P2' }} className="mdl-navigation__link">stateの追加</Link>
+                  </li>
               </ul>
             </li>
             <li>
               ライフサイクル編
               <ul>
                 <li>
-                  <Link to={{ pathname: '/P2' }} className="mdl-navigation__link">ライフサイクルの基礎</Link>
+                  <Link to={{ pathname: '/P3' }} className="mdl-navigation__link">ライフサイクルの基礎</Link>
                 </li>
               </ul>
             </li>
@@ -35,13 +38,19 @@ class App extends Component {
               コンポーネント編
               <ul>
                 <li>
-                  <Link to={{ pathname: '/P3' }} className="mdl-navigation__link">コンポーネント化</Link>
+                  <Link to={{ pathname: '/P4' }} className="mdl-navigation__link">コンポーネント化</Link>
                 </li>
                 <li>
-                  <Link to={{ pathname: '/P4' }} className="mdl-navigation__link">stateless化</Link>
+                  <Link to={{ pathname: '/P5' }} className="mdl-navigation__link">stateless化</Link>
                 </li>
                 <li>
-                  <Link to={{ pathname: '/P5' }} className="mdl-navigation__link">コンポーネントに処理をさせよう</Link>
+                  <Link to={{ pathname: '/P6' }} className="mdl-navigation__link">コンポーネントに処理をさせよう</Link>
+                </li>
+                <li>
+                  <Link to={{ pathname: '/P7' }} className="mdl-navigation__link">コンポーネント間で値を共有しよう</Link>
+                </li>
+                <li>
+                  <Link to={{ pathname: '/P8' }} className="mdl-navigation__link">子コンポーネントで処理して、親コンポーネントで表示しよう</Link>
                 </li>
               </ul>
             </li>

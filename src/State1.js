@@ -12,7 +12,7 @@ export default class Page1 extends Component {
     render () {
         return(
             <div>
-                <h1>sample 1</h1>
+                <h1>State 1</h1>
                 stateのvalueの値を表示しましょう。
                 <p>{/*ここに表示させてください。*/}</p>
                 <Link to={{ pathname: '/P2' }} className="mdl-navigation__link">次へ</Link>
