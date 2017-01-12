@@ -79,6 +79,26 @@
 }
 
 
+.mdl-data-table {
+  width: 100%;
+  white-space: normal;
+}
+
+.mdl-data-table th {
+  border: 1px solid #CCC;
+  text-align: left;
+}
+
+.mdl-data-table .th-center {
+  border: 1px solid #CCC;
+  text-align: center;
+}
+
+.mdl-data-table td {
+  border: 1px solid #CCC;
+  word-break: break-all;
+  text-align: left;
+}
 
 mgnl100 {
   margin-left: 100px;
