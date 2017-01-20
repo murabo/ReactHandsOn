@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
-export default class Page3 extends Component {
+export default class Component1 extends Component {
     render () {
         return(
             <div>
-                <h1>sample 3</h1>
-                <p>下記のSampleTableを、コンポーネント化してください</p>
+                <h1>Component1</h1>
+                <p>下記のtableを、コンポーネント(class)化してください</p>
                 <table>
                     <thead>
                     <tr>
@@ -24,7 +24,7 @@ export default class Page3 extends Component {
                     </tbody>
                 </table>
             {/*SampleTable として定義・表示してください。 */}
-                <Link to={{ pathname: '/P4' }} className="mdl-navigation__link">次へ</Link>
+                <Link to={{ pathname: '/P5' }} className="mdl-navigation__link">次へ</Link>
             </div>
         );
     }
