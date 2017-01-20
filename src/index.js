@@ -12,10 +12,10 @@ import Component3 from './Component3';
 import Component4 from './Component4';
 import Component5 from './Component5';
 import State2 from './State2';
-import Page7 from './Page7';
-import Page8 from './Page8';
-import Page9 from './Page9';
-import Page10 from './Page10';
+import Path2 from './Path2';
+import Css1 from './Css1';
+import Css2 from './Css2';
+import Data1 from './Data1';
 
 render((
         <Router history={browserHistory}>
@@ -29,10 +29,10 @@ render((
             <Route path="p6" component={Component3}/>
             <Route path="p7" component={Component4}/>
             <Route path="p8" component={Component5}/>
-            <Route path="p7" component={Page7}/>
-            <Route path="p8" component={Page8}/>
-            <Route path="p9" component={Page9}/>
-            <Route path="p10" component={Page10}/>
+            <Route path="p9" component={Path2}/>
+            <Route path="p10" component={Css1}/>
+            <Route path="p12" component={Css2}/>
+            <Route path="p13" component={Data1}/>
           </Route>
         </Router>
     ),

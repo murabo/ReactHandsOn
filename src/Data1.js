@@ -31,7 +31,7 @@ const datas = {
   },
 };
 
-export default class Page10 extends Component {
+export default class Data1 extends Component {
 
     render () {
       Object.keys(datas).map((key) => (console.log(datas[key])));

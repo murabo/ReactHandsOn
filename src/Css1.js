@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router';
 
-export default class Page8 extends Component {
+export default class Css1 extends Component {
     render () {
         return(
             <div>

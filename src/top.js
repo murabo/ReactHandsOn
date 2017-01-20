@@ -43,7 +43,7 @@ const Top = () => (
                   <Link to={{ pathname: '/P6' }} className="mdl-navigation__link">画面の追加</Link>
                 </li>
                 <li>
-                  <Link to={{ pathname: '/P7' }} className="mdl-navigation__link">パス(階層)追加</Link>
+                  <Link to={{ pathname: '/P9' }} className="mdl-navigation__link">パス(階層)追加</Link>
                 </li>
               </ul>
             </li>
@@ -51,10 +51,10 @@ const Top = () => (
               CSS編
               <ul>
                 <li>
-                  <Link to={{ pathname: '/P8' }} className="mdl-navigation__link">styleの追加</Link>
+                  <Link to={{ pathname: '/P10' }} className="mdl-navigation__link">styleの追加</Link>
                 </li>
                 <li>
-                  <Link to={{ pathname: '/P9' }} className="mdl-navigation__link">styleの追加 Part2</Link>
+                  <Link to={{ pathname: '/P12' }} className="mdl-navigation__link">styleの追加 Part2</Link>
                 </li>
               </ul>
             </li>
@@ -62,10 +62,7 @@ const Top = () => (
               基礎応用編
               <ul>
                 <li>
-                  <Link to={{ pathname: '/P10' }} className="mdl-navigation__link">データを表示</Link>
-                </li>
-                <li>
-                  <Link to={{ pathname: '/P9' }} className="mdl-navigation__link">styleの追加 Part2</Link>
+                  <Link to={{ pathname: '/P13' }} className="mdl-navigation__link">データを表示</Link>
                 </li>
               </ul>
             </li>

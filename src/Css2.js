@@ -7,7 +7,7 @@ const styles = {
   },
 };
 
-export default class Page9 extends Component {
+export default class Css2 extends Component {
 
     render () {
         return(
